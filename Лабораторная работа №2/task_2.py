@@ -9,4 +9,4 @@ for _ in range(months):
     spend *= (1+increase)
     if (profit < 0): safety_capsule += abs(profit)
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов: {safety_capsule:.0f}")
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов: {safety_capsule:.2f}")
